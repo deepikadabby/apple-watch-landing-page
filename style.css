@@ -273,17 +273,20 @@ body {
 }
 #Perfect{
     font-family: "IBM Plex Sans", sans-serif;
-    font-size: 30px;
+    font-size: 50px;
 }
 #fun{
     font-family: "IBM Plex Sans", sans-serif;
     font-weight:500;
-    font-size: 25px;
+    font-size: 40px;
 }
 .ol{
     font-family: "IBM Plex Sans", sans-serif;
 }
 a{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.bu{
     font-family: "IBM Plex Sans", sans-serif;
 }
 @media (max-width: 1290px) {
@@ -437,6 +440,12 @@ a{
 @media screen and (max-width:666px) {
     .color{
         display: none;
+    }
+    #Perfect{
+        font-size: 30px;
+    }
+    #fun{
+        font-size: 25px;
     }
     
 }
